@@ -1,0 +1,760 @@
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    
+
+/* --------------------menu part start-----------     */
+    #main-menu .menuall{
+        background-color:#d50a51;
+        margin-top: 30px;
+    }
+
+    #main-menu ul li a{
+        color: #fff;
+        margin: 0;
+        text-align: center;
+    }
+
+    #main-menu ul li a img{
+        display: none;
+    }    
+
+    #main-menu ul li a:hover{
+        background-color: #fff;
+    }    
+
+    #main-menu .my_btn{
+        margin: 20px;
+        border-color: #fff;
+        color: #fff;
+        background-color: transparent;  
+        font-size: 17px;      
+    }
+
+    #main-menu .my_btn:hover {
+        color:#d50a51;
+        background-color: #fff;        
+    }
+
+    /* --------------------menu part ends----------- */
+    /* --------------------banner part starts----------- */
+    .banner img{
+        display: none;
+    }
+
+    .banner .banner-text h1 {
+        font-size: 50px;
+    }
+    
+    .banner .banner-text h2 {
+        line-height: 30px;
+        font-size: 44px;
+    }
+    .banner .banner-text p {
+        margin-top: 15px;
+    }
+    
+    .banner .banner-text {
+        padding-bottom: 40px;
+    }
+    
+    
+    
+    
+    /* --------------------banner part ends----------- */
+
+
+    /* --------------------history part starts----------- */
+
+    .history .img img{
+        width: 100%;
+    }
+    .history{
+        padding: 50px 0;
+    }
+    .title {
+        padding-left: 50px;
+    }
+    .title img {
+        top: -15px;
+        left: 6px;
+    }
+
+
+    /* --------------------history part ends----------- */
+
+    /* -------------gift and proposal part start--------------- */
+
+
+    .gift .img img {
+        top: -667px;
+        left: 117px;
+        max-width: 54%;
+    }
+
+    .gift .gift-button{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .my_btn {
+        font-size: 11px;
+        padding: 14px 32px;
+
+    }
+    /* -------------gift and proposal part end--------------- */
+    /* -------------ticket starts--------------- */
+    .ticket .img{
+        position: relative;
+    }
+    .ticket .img img {
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        width: 100%;
+    }
+    .ticket .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    /* -------------ticket end--------------- */
+    /* -------------services starts--------------- */
+    #services {
+        margin-top: 0px;
+    }
+
+    .shoots .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .shoots .buttons .my_btn{
+        font-size: 11px;
+        padding: 14px 20px;
+    }
+
+    .shoots .icons a {
+
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+   
+    }
+    .shoots .overlay .text li a {
+        font-size: 12px;
+        display: inline;
+    }
+
+    .shoots .overlay .text p {
+         font-size: 16px;
+        line-height: 4px;
+        color: yellowgreen;
+    }
+
+    .shoots .img {
+        width: 100%;
+        height: 96%;
+    }
+    /* -------------services end--------------- */
+    /* -------------CountDown Start--------------- */
+
+    .countDown {
+        margin-bottom: 75px;
+        padding: 50px 0;
+    }
+
+    .title p {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .title span {
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 23px;
+    }
+    .container .items{
+        margin-right: 100px;
+    }
+    /* -------------CountDown end--------------- */
+
+
+
+    /* --------------testimonial start------------- */
+    .feedback-slider .slide .details {
+        margin: 0 15px;
+        padding: 25px 39px;
+    }
+    /* .feedback-slider{
+        position: relative;
+    }
+    
+
+    .feedback-slider::before{
+        content: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50px;
+        height: 50px;
+        background:url(../images/testimonial-top-left.png);
+        z-index: 99;
+    } */
+    .prev{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        left: 0;
+    }
+    .next{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        right: 0;
+    }
+
+    /* --------------testimonial end------------- */
+    /* --------------------feedbackForm part starts----------- */
+    .feedback-form .top {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .feedback-form a {
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+    .feedback-form a {
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+
+    }
+    .feedback-form .bottom-details h6 {
+        font-size: 8px;
+        padding-left: 9px;
+    }
+
+    .contact-bottom a {
+        margin: 5px 1px;
+    }
+
+    .feedback-form .top {
+        margin-bottom: 102px;
+        padding: 0px 0px;
+        border-radius: 0;
+}
+
+    .feedback-form .bottom .bottom-details {
+        padding: 0px 0;
+
+    }
+
+    .feedback-form .top .news { 
+        width: 100%;
+    }
+
+    .feedback-form .input-field {
+        width: 100%;
+        margin-top: 40px;   
+        color: #d50a51;  
+    }
+
+    .feedback-form .input-field form #news-button2 {
+        display: inline-block;
+        width: 76px;
+        border: 1px solid #fff;
+        top: 76px;
+        left: 19px;
+        margin-top: 5px;
+        font-size: 12px;
+        color: #d50a51;
+        transition: all linear 0.4s;
+        -webkit-transition: all linear 0.4s;
+        -moz-transition: all linear 0.4s;
+        -ms-transition: all linear 0.4s;
+        -o-transition: all linear 0.4s;
+        font-family: 'josefin';
+        font-weight: 600;
+}
+    .feedback-form .input-field form #news-button2:hover {
+        background-color: #d50a51;
+        color: #fff;
+    }    
+    #news-button1{
+        display: none;
+    }
+    .feedback-form .input-field form input {
+        border: 1px solid #dc3545;
+        margin-bottom: 5px;
+        color: black;
+    }
+
+    .feedback-form .news h3 {
+        font-size: 35px;
+        line-height: 21px;
+        padding-top: 11px;
+    }
+
+    .feedback-form .news p {
+        line-height: 15px;
+        padding-top: 12px;
+        font-size: 14px;
+        font-family: 'josefin';
+        width: 74%;
+    }
+
+    .feedback-form .news i {
+        font-size: 44px;
+        left: 4px;
+        top: 27px;
+        /* line-height: 50px; */
+    }
+
+    .feedback-form .input-field form input::placeholder{
+        background-color:#d50a51 !important;
+
+    }
+
+    .feedback-form .bottom .bottom-details .item {
+        padding: 0 8px;
+    }
+    /* --------------------feedbackForm part ends----------- */
+    
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+/* --------------------menu part start-----------     */
+#main-menu .menuall{
+    background-color:#d50a51;
+    margin-top: 30px;
+}
+
+#main-menu ul li a{
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+
+#main-menu ul li a img{
+    display: none;
+}    
+
+#main-menu ul li a:hover{
+    background-color: #fff;
+}    
+
+#main-menu .my_btn{
+    margin: 20px;
+    border-color: #fff;
+    color: #fff;
+    background-color: transparent;        
+}
+
+#main-menu .my_btn:hover {
+    color:#d50a51;
+    background-color: #fff;        
+}
+
+/* --------------------menu part ends----------- */
+/* --------------------banner part starts----------- */
+.banner img{
+    display: none;
+}
+.banner{
+    padding-bottom: 40px;
+}
+
+
+
+/* --------------------banner part ends----------- */
+/* --------------------history starts----------- */
+.history .img{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.history .img img{
+    width: 100%;
+}
+
+/* --------------------history ends----------- */
+/* --------------------gift starts----------- */
+.gift .img img {
+	top: -487px;
+	right: 88px;
+	width: 39%;
+    left: 197px;
+}
+
+
+/* --------------------gift ends----------- */
+/* --------------------services Starts----------- */
+#services .item {
+	padding: 60px 20px 20px 20px;
+}
+/* --------------------services ends----------- */
+/* ----------------ticket starts------------ */
+
+.ticket .img{
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+.ticket .img img{
+    width: 100%;
+}
+.ticket{
+    padding-top: 20px;
+}
+
+.ticket .my_btn{
+    font-size: 10px;
+}
+
+/* --------------------ticket ends----------- */
+/* ----------------offer and services starts------------ */
+
+.title p{
+    margin-left: 20px;
+}
+
+.title img {
+	top: -13px;
+	left: -25px;
+}
+/* ----------------offer and services ends------------ */
+/* --------------------FormWith ronySir Starts----------- */
+.feedback-form .top {
+    flex-direction: column;
+}
+
+.feedback-form .top {
+	height: 146px;
+	padding: 20px 20px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+.feedback-form .input-field form {
+	display: flex;
+}
+
+
+.feedback-form a {
+	font-size: 15px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.feedback-form .bottom .bottom-details .item {
+	justify-content: space-between;
+	padding: 0 6px;
+	height: 13px;
+}
+
+.feedback-form .bottom .bottom-details .item .text {
+	padding-left: 5px;
+}
+
+.feedback-form .bottom {
+	height: 347px;
+}
+/* --------------------formWithRonySir Ends----------- */
+/* --------------------testimonial start----------- */
+.feedback-slider .slide .details {
+	margin-right: 15px;
+	padding: 25px 39px;
+}
+
+
+.prev{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    left: -10px;
+}
+.next{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    right: -10px;
+}
+/* --------------------testimonial Ends----------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* ------------------menu start------------- */
+    #main-menu .menuall{
+        background-color:#d50a51;
+        margin-top: 30px;
+    }
+    
+    #main-menu ul li a{
+        color: #fff;
+        margin: 0;
+        text-align: center;
+    }
+    
+    #main-menu ul li a img{
+        display: none;
+    }    
+    
+    #main-menu ul li a:hover{
+        background-color: #fff;
+    }    
+    
+    #main-menu .my_btn{
+        margin: 20px;
+        border-color: #fff;
+        color: #fff;
+        background-color: transparent;        
+    }
+    
+    #main-menu .my_btn:hover {
+        color:#d50a51;
+        background-color: #fff;        
+    }
+
+    /* ------------------menu end------------- */
+    /* ------------------banner start------------- */
+    .banner .banner-img img{
+        width: 100%;
+    }
+    .banner .banner-text h2 {
+        font-size: 40px;
+    }
+
+    .banner .banner-text h1 {
+        font-size: 61px;
+        line-height: 19px;
+    }
+    .banner .banner-text p {
+        margin-top: 40px;
+    }
+
+    .para {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .banner .banner-text a {
+        margin-top: 30px;
+    }
+    .banner{
+        padding-bottom: 50px;
+    }
+
+    /* ------------------banner start------------- */
+    /* ------------------history start------------- */
+    .history .img{
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    .history .img img{
+        width: 100%;
+    }
+    /* ------------------history end------------- */
+    /* --------------------gift starts----------- */
+    .gift .img img {
+        top: -487px;
+        right: 88px;
+        width: 39%;
+        left: 197px;
+    }
+
+
+    /* --------------------gift ends----------- */
+    /* ----------------ticket starts------------ */
+
+    .ticket .img{
+        position: sticky;
+        top: 0;
+        left: 0;
+        padding-top: 20px;
+    }
+    .ticket .img img{
+        width: 100%;
+    }
+    .ticket{
+        padding-top: 20px;
+    }
+
+    .ticket .my_btn{
+        font-size: 12px;
+    }
+
+    /* --------------------ticket ends----------- */
+    /* -----------------shoots starts--------- */
+    .shoots .my_btn {
+        font-size: 14px;
+    }
+    /* -----------------shoots ends--------- */
+
+    /* ------------------testimonial start------------- */
+
+    .feedback-slider .slide .details {
+        margin: 0 15px;
+        padding: 25px 39px;
+    }
+
+    .prev{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        left: -10px;
+    }
+    .next{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        right: -10px;
+    }
+    /* ------------------testimonial end------------- */   
+
+    /* --------------------FormWith ronySir Starts----------- */
+.feedback-form .top {
+    flex-direction: column;
+}
+
+.feedback-form .top {
+	height: 146px;
+	padding: 20px 20px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+.feedback-form .input-field form {
+	display: flex;
+}
+
+
+.feedback-form a {
+	font-size: 15px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.feedback-form .bottom .bottom-details .item {
+	justify-content: space-between;
+	padding: 0 6px;
+	height: 13px;
+}
+
+.feedback-form .bottom .bottom-details .item .text {
+	padding-left: 5px;
+}
+
+.feedback-form .bottom {
+	height: 347px;
+}
+
+.feedback-form .input-field form {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.feedback-form .input-field form input {
+	width: 46%;
+    margin-left: 0;
+}
+/* --------------------formWithRonySir Ends----------- */
+    
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    #main-menu .nav-item .my_btn {
+        font-size: 17px;
+        padding: 10px 24px;
+
+    }
+
+    .banner .banner-img img{
+        width: 100%;
+    }
+    .history .img img{
+        width: 100%;
+    }
+    .ticket .img img{
+        width: 100%;
+    }
+    /* -----------------shoots starts--------- */
+    .shoots .my_btn {
+        font-size: 14px;
+    }
+    /* -----------------shoots ends--------- */
+    .feedback-form .top {
+        padding: 30px 42px;
+    }
+    .feedback-slider .slide .details {
+        margin: 0 5px;
+        padding: 30px 20px;
+    }
+
+    .prev{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        left: -10px;
+    }
+    .next{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        right: -10px;
+    }    
+    .feedback-slider .bottom-details{
+        padding-left: 20px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    .shoots .my_btn {
+        font-size: 18px;
+    }
+
+    .next{
+        right: 0;
+    }
+    .prev{
+        left: 0;
+    }    
+
+
+
+}

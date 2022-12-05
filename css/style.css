@@ -1,0 +1,855 @@
+
+@font-face {
+    font-family: 'josefin';
+    src: url(../fonts/JosefinSans-SemiBold.ttf);
+
+    font-family: 'gvibes';
+    src: url(../fonts/GreatVibes-Regular.ttf);
+
+    font-family: 'openSans';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span, ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+li{
+    list-style: none;
+}
+
+.clr{
+    clear: both;
+}
+
+.my_btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'josefin';
+    background-color: #d50a51;
+    padding: 10px 24px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 1px solid transparent;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.para{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'josefin';
+    line-height: 26px ;
+    color: #444444;
+}
+
+.title{
+    position: relative;
+}
+
+.title img {
+    position: absolute;
+    top: -16px;
+    left: -53px;
+}
+
+
+.title p{
+    font-size: 24px;
+    font-weight: 600;
+    color: #666666;
+    font-family: 'josefin';
+    line-height: 34px;
+}
+.title span{
+    font-size: 32px;
+    font-weight: 600;
+    color:#d50a51;
+    font-family: 'josefin';
+    display: block;
+    line-height: 34px;
+}
+
+img{
+    vertical-align: middle;
+}
+
+/* -------------------common css end------------------- */
+/* -------------------menu css starts------------------- */
+
+#main-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    top: 20px;
+    z-index: 99;
+}
+
+#main-menu ul li a{
+    font-family: josefin;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    margin: 0 15px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    position: relative;
+}
+#main-menu ul li a:hover{
+    color: #d50a51;
+}
+
+#main-menu .my_btn:hover{
+    border-color: #d50a51;
+    color: #d50a51;
+    background-color: transparent ;
+}
+
+#main-menu ul li a img{
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#main-menu ul li a:hover img{
+    bottom: -14px;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+/* -------------------menu css end------------------- */
+/* -------------------banner css starts------------------- */
+
+.banner{
+    padding-top: 133px;
+    background: url(../images/banner-bg.png) no-repeat center;
+    background-size: cover;
+}
+
+.banner .banner-text{
+    text-align: center;
+}
+
+.banner .banner-text h2{
+    font-family: 'josefin';  
+    color: #8a5e3b;
+    text-transform: uppercase; 
+    line-height: 61px; 
+    font-weight: 600;
+    font-size: 61px;
+
+}
+.banner .banner-text h1{
+    font-family: 'Great Vibes', cursive;
+
+    color: #d50a51;
+    font-size: 84px;
+    line-height: 48px;
+    font-weight: 400;
+}
+
+.banner .banner-text p{
+    margin-top: 50px;
+}
+
+.banner .banner-text a{
+    margin-top: 50px;
+    background: transparent;
+    border-color: #d50a51;
+    color: #d50a51;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.banner .banner-text a:hover{
+    background-color: #d50a51;
+    color: #fff;
+}
+/* ------------------banner css end------------------- */
+/* ------------------History css starts------------------- */
+
+.history{
+    padding: 100px 0;
+}
+
+.history .para{
+    margin-top: 50px;
+}
+.history .para span{
+    margin-top: 30px;
+    display: block;
+}
+/* ------------------History css end------------------- */
+
+
+/* ------------------giftAndProposal css starts------------------- */
+
+.gift{
+    padding: 100px 0;
+    background: url(../images/proposal-bg.png) no-repeat center;
+    background-size: cover;    
+}
+
+.gift .para{
+    margin-top: 50px;
+}
+.gift .para span{
+    margin-top: 30px;
+    display: block;
+}
+
+.gift .img{
+    position: relative;
+}
+
+.gift .img img {
+    position: absolute;
+    top: -260px;
+    left: -150px;
+}
+
+.gift .my_btn:hover{
+    border-color: #d50a51;
+    color: #d50a51;
+    background-color: transparent ;
+}
+/* ------------------giftAndProposal css end------------------- */
+
+
+/* ------------------Ticket css starts------------------- */
+
+/* .ticket{
+    background-color: aquamarine;
+} */
+.ticket .img{
+    padding-top: 123px;
+    padding-bottom: 100px;
+}
+
+.ticket .para{
+    margin-top: 50px;
+}
+.ticket .para span{
+    margin-top: 30px;
+    display: block;
+}
+
+
+.ticket-title{
+    position: relative;
+    padding-right: 50px;
+}
+
+.ticket-title img {
+    position: absolute;
+    top: -16px;
+    right: 0px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.ticket-title p{
+    font-size: 24px;
+    font-weight: 600;
+    color: #666666;
+    font-family: 'josefin';
+    line-height: 34px;
+}
+.ticket-title span{
+    font-size: 32px;
+    font-weight: 600;
+    color:#d50a51;
+    font-family: 'josefin';
+    display: block;
+    line-height: 34px;
+}
+
+#details{
+    padding-left: 30px;
+}
+
+.ticket .details .my_btn:hover{
+    border-color: #d50a51;
+    color: #d50a51;
+    background-color: transparent ;
+}
+
+/* ------------------Ticket css end------------------- */
+/* ------------Services css starts------------------- */
+
+#services{
+    /* margin-bottom: 200px; */
+}
+
+#services .para{
+    margin-top: 50px;
+    font-family: 'josefin';
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #444444;
+}
+#services .para span{
+    margin-top: 30px;
+    display: block;
+}
+
+#services .item{
+    padding: 60px 30px 30px 30px;
+    border-right: 3px solid transparent;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+#services .item:hover{
+    border-color: #d50a51;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px 0px gray;
+    background: #f1f1f1;
+}
+
+#services .item h2{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'josefin';
+    color: #d50a51;
+    padding-left: 55px;
+
+}
+#big-space-h2{
+    padding-left: 75px !important;
+}
+#services .item h2 img{
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+
+/* ------------------Services css end------------------- */
+/* ------------------Capture&Shoots css Starts------------------- */
+.shoots{
+    padding: 100px 0;
+    /* margin-bottom: 300px;
+    background-color: aquamarine; */
+}
+.shoots .img{
+    position: relative;
+    width: 94%;
+}
+
+.shoots .img .overlay{
+    position: absolute;
+    width: 100%;
+    height: 96%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* z-index: 99; */
+}
+
+
+.shoots .img{
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+
+}
+.shoots .overlay{
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    transform: rotateY(90deg);
+    -webkit-transform: rotateY(90deg);
+    -moz-transform: rotateY(90deg);
+    -ms-transform: rotateY(90deg);
+    -o-transform: rotateY(90deg);
+
+    position: absolute;
+}
+
+.shoots .img:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+}
+
+.shoots .icons{
+    position: absolute;
+    width: 7%;
+    height: 200px;
+    top: 26px;
+    right: 20px;
+    color: #d50a51;
+}
+
+.shoots .text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.shoots .overlay .text p{
+    color: #ffffff;
+    font-size: 20px;
+        font-family: 'josefin';
+}
+.shoots .overlay .text li{
+    display: inline-block;
+}
+
+.shoots .overlay .text li a{
+    color: #fff;   
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'josefin';
+}
+
+.shoots .icons a {
+    
+    display: block;
+    margin-bottom: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: transparent;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    color:#fff;
+}
+
+.shoots .icons a:hover{
+    background-color: #d50a51;
+    border: none;
+}
+
+.shoots .img img{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+
+.shoots .para{
+    margin-top: 50px;
+}
+.shoots .para span{
+    margin-top: 30px;
+    display: block;
+}
+
+.shoots .my_btn:hover{
+    border-color: #d50a51;
+    color: #d50a51;
+    background-color: transparent ;
+}
+.shoots .row{
+    --bs-gutter-x: -2.5rem;
+}
+
+
+
+
+/* ------------------Capture&Shoots css end------------------- */
+/* ------------------countDown css starts------------------- */
+.countDown{
+    margin-bottom: 100px;
+    padding: 100px 0;
+    background: url(../images/countDownBg.png) no-repeat center;
+    background-size: cover;    
+}
+
+
+
+/* ------------------countDown css end------------------- */
+/* ------------------SlickSlider css starts------------------- */
+.feedback-slider{
+    margin-bottom: 100px;
+}
+
+
+
+.feedback-slider .slide {
+    height: 295px;
+
+}
+.feedback-slider .slide .details{
+    background: url(../images/slideBG.png) no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+    padding: 30px 45px;
+}
+.feedback-slider .slide .row {
+    margin-right: 10px;
+}
+
+/* .banners{
+    background: url(../images/bg-1.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0;
+    color: #fff;
+}
+.banner-2{
+    background: url(../images/bg-2.jpg) no-repeat center;
+    background-size: cover;
+    color: tomato;
+} */
+.prev{
+    position: absolute;
+    font-size: 20px;
+    color:#fff;
+    background-color:#d50a51;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    left: -50px;
+    z-index: 99;
+}
+.next{
+    position: absolute;
+    font-size: 20px;
+    color:#fff;
+    background-color:#d50a51;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 50%;
+    right: -50px;
+    z-index: 99;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+/* ------------------SlickSlider css ends------------------- */
+
+/* ------------------Feedback Form css Starts------------------- */
+/* -----------------formWithRonySir-------------- */
+.feedback-form .top{
+    height: 100px;
+    background-color:#d50a51;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    padding: 28px 70px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    
+}
+
+.feedback-form .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-form .bottom{
+    height: 410px;
+    background: url(../images/contactBG.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.feedback-form .bottom .bottom-details{
+    width: 100%;
+    /* height: 300px; */
+    /* background-color: yellowgreen; */
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.feedback-form .bottom .bottom-details .item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    height: 100px;
+
+}
+
+.feedback-form .bottom .bottom-details .item .icon{
+    width: 20%;
+}
+.feedback-form a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color:#d50a51;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.feedback-form a:hover{
+    background-color: #fff;
+    color:#d50a51;   
+    border: 1px solid #d50a51; 
+}
+
+.feedback-form .bottom .bottom-details .item .text{
+    width: 85%;
+}
+
+#contact-bottom{
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.follow-us{
+    margin-bottom: 20px;
+    color: #d50a51;
+}
+.contact-bottom a{
+    margin: 10px 7px;
+}
+#news-button2{
+    display: none;
+}
+
+
+
+
+
+
+
+.feedback-form .news i{
+    position: absolute;
+    font-size: 50px;
+    color: #fff;
+    left: 0;
+    top: -1px;
+    /* line-height: 50px; */
+}
+
+
+.feedback-form .news{
+position: relative;
+padding-left: 55px;
+}
+
+.feedback-form .news h3{
+    font-size: 40px;
+    line-height: 24px;
+    color: #fff;
+}
+.feedback-form .news p{
+    color: #fff;
+}
+
+
+.feedback-form .input-field{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.feedback-form .input-field form{
+    position: relative;
+
+}
+.feedback-form .input-field form input{
+    padding: 0px 10px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 20px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    
+}
+.feedback-form .input-field input::placeholder{
+    color: #fff;
+    font-style: italic;
+}
+
+.feedback-form .input-field form button{
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.feedback-form .input-field form button i{
+    line-height: 35px;
+    color: #fff;
+}
+
+
+
+
+/* ------------------Feedback Form css ends------------------- */
+/* ------------------Contact css Starts------------------- */
+.contact{
+    background: url(../images/contactBG.png) no-repeat;
+    background-size: cover;
+    height: 408px;
+}
+
+/* ------------------Contact css ends------------------- */
+/* .contact-upper{
+    padding-top: 85px;
+}
+
+.contact-middle{
+    height: 170px;
+    padding-left: 90px;
+    
+}
+
+.contact a{
+    width: 40px;
+    height: 40px;
+    background-color: #d50a51;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.contact a:hover{
+    background-color: transparent;
+    border: 1px solid #d50a51;
+    color: #d50a51;
+}
+
+.contact-middle .col-first{
+    padding: 85px 0;
+}
+
+.follow-us{
+    color: #d50a51;
+    font-weight: 600;
+}
+.contact-bottom a{
+    margin: 0 10px;
+} */
+
+
+/* ------------------Footer css starts------------------- */
+footer{
+    padding: 20px 0;
+    background: url(../images/footerBG.png) no-repeat center;
+    background-size: cover;        
+}
+
+/* ------------------Footer css end------------------- */
